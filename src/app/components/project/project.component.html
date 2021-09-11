@@ -1,0 +1,14 @@
+<!-- Projeler -->
+<section id="services" class="dark">
+    <div class="inner-width">
+      <h1 class="section-title">Projeler</h1>
+      <div class="services">
+
+        <div  *ngFor="let project of projectList" class="service">
+          <h4>{{ project.title }}</h4>
+          <p>{{ project.description }}</p>
+        </div>
+          
+      </div>
+    </div>
+  </section>
