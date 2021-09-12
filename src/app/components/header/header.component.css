@@ -44,6 +44,7 @@
     outline: none;
     z-index: 999;
     display: none;
+    margin-right: 15px;
   }
   
   .menu-toggler span{
